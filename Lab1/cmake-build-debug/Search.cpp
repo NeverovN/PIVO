@@ -1,7 +1,9 @@
+//
+// Created by cirkul on 12.09.2020.
+//
+
 #include "Polynomial.h"
 
-double Polynomial::operator[](const int receivedIndex) {
-    double requiredCoef = 0;
-    requiredCoef = this->coefArray[receivedIndex-1];
-    return requiredCoef;
+double Polynomial::operator[](const int requiredIndex) {
+    return this->coefArray[this->coefArray.size() - requiredIndex - 1];
 }

@@ -332,6 +332,33 @@ Refactor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.s
 .PHONY : Refactor.cpp.s
 
+Search.o: Search.cpp.o
+
+.PHONY : Search.o
+
+# target to build an object file
+Search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Search.cpp.o
+.PHONY : Search.cpp.o
+
+Search.i: Search.cpp.i
+
+.PHONY : Search.i
+
+# target to preprocess a source file
+Search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Search.cpp.i
+.PHONY : Search.cpp.i
+
+Search.s: Search.cpp.s
+
+.PHONY : Search.s
+
+# target to generate assembly for a file
+Search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Search.cpp.s
+.PHONY : Search.cpp.s
+
 Substruction.o: Substruction.cpp.o
 
 .PHONY : Substruction.o
@@ -416,6 +443,9 @@ help:
 	@echo "... Refactor.o"
 	@echo "... Refactor.i"
 	@echo "... Refactor.s"
+	@echo "... Search.o"
+	@echo "... Search.i"
+	@echo "... Search.s"
 	@echo "... Substruction.o"
 	@echo "... Substruction.i"
 	@echo "... Substruction.s"

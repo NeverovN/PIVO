@@ -22,6 +22,9 @@ CMakeFiles/untitled2.dir/Output.cpp.o: Polynomial.h
 CMakeFiles/untitled2.dir/Refactor.cpp.o: Polynomial.h
 CMakeFiles/untitled2.dir/Refactor.cpp.o: Refactor.cpp
 
+CMakeFiles/untitled2.dir/Search.cpp.o: Polynomial.h
+CMakeFiles/untitled2.dir/Search.cpp.o: Search.cpp
+
 CMakeFiles/untitled2.dir/Substruction.cpp.o: Polynomial.h
 CMakeFiles/untitled2.dir/Substruction.cpp.o: Substruction.cpp
 

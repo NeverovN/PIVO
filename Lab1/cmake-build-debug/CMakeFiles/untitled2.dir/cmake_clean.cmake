@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled2.dir/Init.cpp.o"
   "CMakeFiles/untitled2.dir/Output.cpp.o"
   "CMakeFiles/untitled2.dir/Refactor.cpp.o"
+  "CMakeFiles/untitled2.dir/Search.cpp.o"
   "CMakeFiles/untitled2.dir/Substruction.cpp.o"
   "CMakeFiles/untitled2.dir/main.cpp.o"
   "untitled2"

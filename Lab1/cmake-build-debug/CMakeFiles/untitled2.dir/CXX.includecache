@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Division.cpp
-iostream
--
-Polynomial.h
-/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
-
 /home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
 iostream
 -
 vector
 -
+
+/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/main.cpp
+iostream
+-
+cmake-build-debug/Polynomial.h
+/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
 

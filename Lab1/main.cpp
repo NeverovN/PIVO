@@ -10,8 +10,9 @@ int main() {
     Polynomial one(3, m_coefArray);
     Polynomial two(3, coefArray);
     Polynomial four(1, coef);
-    Polynomial three = four / one;
+    Polynomial three = two - one;
     cout << three(1) << endl;
     cout << three << endl;
+    cout << three[0];
     return 0;
 }
