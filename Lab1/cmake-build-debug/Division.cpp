@@ -17,8 +17,7 @@ Polynomial Polynomial::operator/(const Polynomial divider) {
 
     catch (const char *exception) {
         cout << "Division Error: " << exception <<endl;
-        result.coefArray.resize(1);
-        return result;
+        abort();
     }
 
     result.coefArray.resize(this->coefArray.size() - divider.coefArray.size() + 1);
@@ -52,8 +51,7 @@ Polynomial Polynomial::operator/=(const Polynomial divider) {
 
     catch (const char *exception) {
         cout << "Division Error: " << exception << endl;
-        this->coefArray.resize(1);
-        return *this;
+        abort();
     }
 
     result.coefArray.resize(this->coefArray.size() - divider.coefArray.size() + 1);
