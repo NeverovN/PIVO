@@ -17,18 +17,21 @@
 
 #endif //UNTITLED2_POLYNOMIAL_H
 
+#include <iostream>
 #include <vector>
 using namespace std;
 
 class Polynomial {
     vector<double> coefArray;
     void init(Polynomial value, int power);
+    Polynomial refactor();
 public:
     Polynomial();
-    Polynomial(const int m_power, const double m_coefArray[]);
+    Polynomial(const int power, const double coefArray[]);
     double operator () (const double argument);
     Polynomial operator -= (const Polynomial subtrahend);
     Polynomial operator - (const Polynomial subtrahend);
     Polynomial operator / (const Polynomial divider);
     Polynomial operator /= (const Polynomial divider);
+    friend ostream& operator << (ostream &out, const Polynomial &point);
 };

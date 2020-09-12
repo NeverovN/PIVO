@@ -12,4 +12,5 @@ void Polynomial::init(Polynomial value, int power) {
         else
             this->coefArray[i] = 0;
     }
+    this->refactor();
 }

@@ -4,10 +4,11 @@
 
 #include "Polynomial.h"
 
-Polynomial::Polynomial() {}
+Polynomial::Polynomial() = default;
 
-Polynomial::Polynomial(const int m_power, const double m_coefArray[]) {
-    this->coefArray.resize(m_power + 1);
+Polynomial::Polynomial(const int power, const double coefArray[]) {
+    this->coefArray.resize(power + 1);
     for (int i = 0; i < this->coefArray.size(); i++)
-        coefArray[i] = m_coefArray[i];
+        this->coefArray[i] = coefArray[i];
 }
+

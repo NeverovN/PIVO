@@ -12,6 +12,7 @@ Polynomial Polynomial::operator - (const Polynomial subtrahend){
     result.init(*this, subtrahend.coefArray.size());
     for (int i = 0; i < subtrahend.coefArray.size(); ++i)
         result.coefArray[i + result.coefArray.size() - subtrahend.coefArray.size()] -= subtrahend.coefArray[i];
+    result.refactor();
     return result;
 }
 
@@ -22,6 +23,6 @@ Polynomial Polynomial::operator -= (const Polynomial subtrahend){
     for (int i = 0; i < subtrahend.coefArray.size(); ++i)
         this->coefArray[i + this->coefArray.size() - subtrahend.coefArray.size()] =
                 this->coefArray[i + this->coefArray.size() - subtrahend.coefArray.size()] - subtrahend.coefArray[i];
-
+    this->refactor();
     return *this;
 }

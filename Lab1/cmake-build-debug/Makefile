@@ -278,6 +278,60 @@ Init.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Init.cpp.s
 .PHONY : Init.cpp.s
 
+Output.o: Output.cpp.o
+
+.PHONY : Output.o
+
+# target to build an object file
+Output.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Output.cpp.o
+.PHONY : Output.cpp.o
+
+Output.i: Output.cpp.i
+
+.PHONY : Output.i
+
+# target to preprocess a source file
+Output.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Output.cpp.i
+.PHONY : Output.cpp.i
+
+Output.s: Output.cpp.s
+
+.PHONY : Output.s
+
+# target to generate assembly for a file
+Output.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Output.cpp.s
+.PHONY : Output.cpp.s
+
+Refactor.o: Refactor.cpp.o
+
+.PHONY : Refactor.o
+
+# target to build an object file
+Refactor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.o
+.PHONY : Refactor.cpp.o
+
+Refactor.i: Refactor.cpp.i
+
+.PHONY : Refactor.i
+
+# target to preprocess a source file
+Refactor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.i
+.PHONY : Refactor.cpp.i
+
+Refactor.s: Refactor.cpp.s
+
+.PHONY : Refactor.s
+
+# target to generate assembly for a file
+Refactor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.s
+.PHONY : Refactor.cpp.s
+
 Substruction.o: Substruction.cpp.o
 
 .PHONY : Substruction.o
@@ -356,6 +410,12 @@ help:
 	@echo "... Init.o"
 	@echo "... Init.i"
 	@echo "... Init.s"
+	@echo "... Output.o"
+	@echo "... Output.i"
+	@echo "... Output.s"
+	@echo "... Refactor.o"
+	@echo "... Refactor.i"
+	@echo "... Refactor.s"
 	@echo "... Substruction.o"
 	@echo "... Substruction.i"
 	@echo "... Substruction.s"

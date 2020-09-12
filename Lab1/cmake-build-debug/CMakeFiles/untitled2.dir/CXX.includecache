@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Output.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
+iostream
+-
+
+/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
+iostream
+-
+vector
+-
+

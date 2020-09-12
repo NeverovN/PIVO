@@ -74,5 +74,6 @@ Polynomial Polynomial::operator/=(const Polynomial divider) {
         this->coefArray.pop_back();
     }
     *this = result;
+    this->refactor();
     return *this;
 }
