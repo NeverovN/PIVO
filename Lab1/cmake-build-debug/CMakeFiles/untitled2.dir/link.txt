@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/Constructors.cpp.o CMakeFiles/untitled2.dir/Assignment.cpp.o CMakeFiles/untitled2.dir/Substruction.cpp.o CMakeFiles/untitled2.dir/Init.cpp.o CMakeFiles/untitled2.dir/Division.cpp.o CMakeFiles/untitled2.dir/Equality.cpp.o  -o untitled2 
