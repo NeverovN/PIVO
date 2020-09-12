@@ -1,3 +1,7 @@
+/*!
+ * \author Sergei Golovachenko
+ */
+
 #include <iostream>
 #include "cmake-build-debug/Polynomial.h"
 
@@ -11,8 +15,6 @@ int main() {
     Polynomial two(3, coefArray);
     Polynomial four(1, coef);
     Polynomial three = two - one;
-    cout << three(1) << endl;
-    cout << three << endl;
-    cout << three[0];
+    cout << "one[1] = " << one[1];
     return 0;
 }
