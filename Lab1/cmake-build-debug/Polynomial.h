@@ -34,4 +34,5 @@ public:
     Polynomial operator / (const Polynomial divider);
     Polynomial operator /= (const Polynomial divider);
     friend ostream& operator << (ostream &out, const Polynomial &point);
+    double operator [] (const int receivedIndex);
 };
