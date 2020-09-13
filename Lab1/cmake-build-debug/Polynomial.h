@@ -37,4 +37,6 @@ public:
     double operator [] (const int receivedIndex);
     Polynomial operator + (const Polynomial addendum);
     Polynomial operator += (const Polynomial addendum);
+    Polynomial operator * (const Polynomial multiplier);
+    Polynomial operator *= (const Polynomial multiplier);
 };
