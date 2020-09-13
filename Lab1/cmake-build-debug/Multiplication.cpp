@@ -11,7 +11,7 @@ Polynomial Polynomial::operator * (const Polynomial multiplier) {
 	return result;
 }
 
-Polynomial Polynomial::operator *= (const Polynomial multiplier) {
+void Polynomial::operator *= (const Polynomial multiplier) {
 	Polynomial result;
 	result.coefArray.resize(this->coefArray.size() + multiplier.coefArray.size() - 1);
 	for (int i = 0; i < this->coefArray.size(); i++) {
@@ -19,5 +19,5 @@ Polynomial Polynomial::operator *= (const Polynomial multiplier) {
 			result.coefArray[i + j] += this->coefArray[i] * multiplier.coefArray[j];
 		}
 	}
-	return result;
+	*this = result;
 }
