@@ -68,10 +68,10 @@ RM = /home/cirkul/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1"
+CMAKE_SOURCE_DIR = "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles" "/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,33 @@ untitled2: cmake_check_build_system
 untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
+
+Addition.o: Addition.cpp.o
+
+.PHONY : Addition.o
+
+# target to build an object file
+Addition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Addition.cpp.o
+.PHONY : Addition.cpp.o
+
+Addition.i: Addition.cpp.i
+
+.PHONY : Addition.i
+
+# target to preprocess a source file
+Addition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Addition.cpp.i
+.PHONY : Addition.cpp.i
+
+Addition.s: Addition.cpp.s
+
+.PHONY : Addition.s
+
+# target to generate assembly for a file
+Addition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Addition.cpp.s
+.PHONY : Addition.cpp.s
 
 Assignment.o: Assignment.cpp.o
 
@@ -224,33 +251,6 @@ Division.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Division.cpp.s
 .PHONY : Division.cpp.s
 
-Equality.o: Equality.cpp.o
-
-.PHONY : Equality.o
-
-# target to build an object file
-Equality.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Equality.cpp.o
-.PHONY : Equality.cpp.o
-
-Equality.i: Equality.cpp.i
-
-.PHONY : Equality.i
-
-# target to preprocess a source file
-Equality.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Equality.cpp.i
-.PHONY : Equality.cpp.i
-
-Equality.s: Equality.cpp.s
-
-.PHONY : Equality.s
-
-# target to generate assembly for a file
-Equality.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Equality.cpp.s
-.PHONY : Equality.cpp.s
-
 Init.o: Init.cpp.o
 
 .PHONY : Init.o
@@ -277,6 +277,33 @@ Init.s: Init.cpp.s
 Init.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Init.cpp.s
 .PHONY : Init.cpp.s
+
+Multiplication.o: Multiplication.cpp.o
+
+.PHONY : Multiplication.o
+
+# target to build an object file
+Multiplication.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Multiplication.cpp.o
+.PHONY : Multiplication.cpp.o
+
+Multiplication.i: Multiplication.cpp.i
+
+.PHONY : Multiplication.i
+
+# target to preprocess a source file
+Multiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Multiplication.cpp.i
+.PHONY : Multiplication.cpp.i
+
+Multiplication.s: Multiplication.cpp.s
+
+.PHONY : Multiplication.s
+
+# target to generate assembly for a file
+Multiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Multiplication.cpp.s
+.PHONY : Multiplication.cpp.s
 
 Output.o: Output.cpp.o
 
@@ -422,6 +449,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled2"
+	@echo "... Addition.o"
+	@echo "... Addition.i"
+	@echo "... Addition.s"
 	@echo "... Assignment.o"
 	@echo "... Assignment.i"
 	@echo "... Assignment.s"
@@ -431,12 +461,12 @@ help:
 	@echo "... Division.o"
 	@echo "... Division.i"
 	@echo "... Division.s"
-	@echo "... Equality.o"
-	@echo "... Equality.i"
-	@echo "... Equality.s"
 	@echo "... Init.o"
 	@echo "... Init.i"
 	@echo "... Init.s"
+	@echo "... Multiplication.o"
+	@echo "... Multiplication.i"
+	@echo "... Multiplication.s"
 	@echo "... Output.o"
 	@echo "... Output.i"
 	@echo "... Output.s"

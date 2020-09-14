@@ -41,7 +41,7 @@ Polynomial Polynomial::operator/(const Polynomial divider) {
     return result;
 }
 
-Polynomial Polynomial::operator/=(const Polynomial divider) {
+void Polynomial::operator/=(const Polynomial divider) {
     Polynomial result;
 
     try {
@@ -73,5 +73,5 @@ Polynomial Polynomial::operator/=(const Polynomial divider) {
     }
     *this = result;
     this->refactor();
-    return *this;
+    return;
 }

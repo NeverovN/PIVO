@@ -29,14 +29,14 @@ public:
     Polynomial();
     Polynomial(const int power, const double coefArray[]);
     double operator () (const double argument);
-    Polynomial operator -= (const Polynomial subtrahend);
+    void operator -= (const Polynomial subtrahend);
     Polynomial operator - (const Polynomial subtrahend);
     Polynomial operator / (const Polynomial divider);
-    Polynomial operator /= (const Polynomial divider);
+    void operator /= (const Polynomial divider);
     friend ostream& operator << (ostream &out, const Polynomial &point);
     double operator [] (const int receivedIndex);
     Polynomial operator + (const Polynomial addendum);
-    Polynomial operator += (const Polynomial addendum);
+    void operator += (const Polynomial addendum);
     Polynomial operator * (const Polynomial multiplier);
-    Polynomial operator *= (const Polynomial multiplier);
+    void operator *= (const Polynomial multiplier);
 };

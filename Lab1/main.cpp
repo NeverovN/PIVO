@@ -3,7 +3,7 @@
  */
 
 #include <iostream>
-#include "cmake-build-debug/Polynomial.h"
+#include "Polynomial.h"
 
 using namespace std;
 

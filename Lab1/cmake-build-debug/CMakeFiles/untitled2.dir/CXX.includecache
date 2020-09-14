@@ -6,15 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Addition.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Assignment.cpp
+cmath
+-
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Constructors.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Division.cpp
+iostream
+-
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Init.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Multiplication.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Output.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+iostream
+-
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
 iostream
 -
 vector
 -
 
-/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/main.cpp
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Refactor.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Search.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Substruction.cpp
 iostream
 -
-cmake-build-debug/Polynomial.h
-/home/cirkul/CLionProjects/LAB/3 sem/PPvIS/Lab1/cmake-build-debug/Polynomial.h
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/main.cpp
+iostream
+-
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Polynomial.h
 

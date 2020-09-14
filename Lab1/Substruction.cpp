@@ -16,7 +16,7 @@ Polynomial Polynomial::operator - (const Polynomial subtrahend){
     return result;
 }
 
-Polynomial Polynomial::operator -= (const Polynomial subtrahend){
+void Polynomial::operator -= (const Polynomial subtrahend){
     this->coefArray.size() > subtrahend.coefArray.size() ?
     this->init(*this, this->coefArray.size()) :
     this->init(*this, subtrahend.coefArray.size());
@@ -24,5 +24,5 @@ Polynomial Polynomial::operator -= (const Polynomial subtrahend){
         this->coefArray[i + this->coefArray.size() - subtrahend.coefArray.size()] =
                 this->coefArray[i + this->coefArray.size() - subtrahend.coefArray.size()] - subtrahend.coefArray[i];
     this->refactor();
-    return *this;
+    return;
 }
