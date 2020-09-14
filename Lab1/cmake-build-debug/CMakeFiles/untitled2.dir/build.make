@@ -63,10 +63,10 @@ RM = /home/cirkul/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)"
+CMAKE_SOURCE_DIR = /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled2.dir/depend.make
@@ -79,146 +79,146 @@ include CMakeFiles/untitled2.dir/flags.make
 
 CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/main.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/main.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/main.cpp
 
 CMakeFiles/untitled2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/main.cpp" > CMakeFiles/untitled2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
 
 CMakeFiles/untitled2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/main.cpp" -o CMakeFiles/untitled2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
 
 CMakeFiles/untitled2.dir/Constructors.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Constructors.cpp.o: ../Constructors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/Constructors.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Constructors.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Constructors.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/Constructors.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Constructors.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Constructors.cpp
 
 CMakeFiles/untitled2.dir/Constructors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Constructors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Constructors.cpp" > CMakeFiles/untitled2.dir/Constructors.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Constructors.cpp > CMakeFiles/untitled2.dir/Constructors.cpp.i
 
 CMakeFiles/untitled2.dir/Constructors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Constructors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Constructors.cpp" -o CMakeFiles/untitled2.dir/Constructors.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Constructors.cpp -o CMakeFiles/untitled2.dir/Constructors.cpp.s
 
 CMakeFiles/untitled2.dir/Assignment.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Assignment.cpp.o: ../Assignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/Assignment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Assignment.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Assignment.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/Assignment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Assignment.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Assignment.cpp
 
 CMakeFiles/untitled2.dir/Assignment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Assignment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Assignment.cpp" > CMakeFiles/untitled2.dir/Assignment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Assignment.cpp > CMakeFiles/untitled2.dir/Assignment.cpp.i
 
 CMakeFiles/untitled2.dir/Assignment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Assignment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Assignment.cpp" -o CMakeFiles/untitled2.dir/Assignment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Assignment.cpp -o CMakeFiles/untitled2.dir/Assignment.cpp.s
 
 CMakeFiles/untitled2.dir/Substruction.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Substruction.cpp.o: ../Substruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled2.dir/Substruction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Substruction.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Substruction.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled2.dir/Substruction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Substruction.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Substruction.cpp
 
 CMakeFiles/untitled2.dir/Substruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Substruction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Substruction.cpp" > CMakeFiles/untitled2.dir/Substruction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Substruction.cpp > CMakeFiles/untitled2.dir/Substruction.cpp.i
 
 CMakeFiles/untitled2.dir/Substruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Substruction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Substruction.cpp" -o CMakeFiles/untitled2.dir/Substruction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Substruction.cpp -o CMakeFiles/untitled2.dir/Substruction.cpp.s
 
 CMakeFiles/untitled2.dir/Init.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Init.cpp.o: ../Init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled2.dir/Init.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Init.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Init.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled2.dir/Init.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Init.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Init.cpp
 
 CMakeFiles/untitled2.dir/Init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Init.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Init.cpp" > CMakeFiles/untitled2.dir/Init.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Init.cpp > CMakeFiles/untitled2.dir/Init.cpp.i
 
 CMakeFiles/untitled2.dir/Init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Init.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Init.cpp" -o CMakeFiles/untitled2.dir/Init.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Init.cpp -o CMakeFiles/untitled2.dir/Init.cpp.s
 
 CMakeFiles/untitled2.dir/Division.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Division.cpp.o: ../Division.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled2.dir/Division.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Division.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Division.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled2.dir/Division.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Division.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Division.cpp
 
 CMakeFiles/untitled2.dir/Division.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Division.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Division.cpp" > CMakeFiles/untitled2.dir/Division.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Division.cpp > CMakeFiles/untitled2.dir/Division.cpp.i
 
 CMakeFiles/untitled2.dir/Division.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Division.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Division.cpp" -o CMakeFiles/untitled2.dir/Division.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Division.cpp -o CMakeFiles/untitled2.dir/Division.cpp.s
 
 CMakeFiles/untitled2.dir/Output.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Output.cpp.o: ../Output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled2.dir/Output.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Output.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Output.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled2.dir/Output.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Output.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Output.cpp
 
 CMakeFiles/untitled2.dir/Output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Output.cpp" > CMakeFiles/untitled2.dir/Output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Output.cpp > CMakeFiles/untitled2.dir/Output.cpp.i
 
 CMakeFiles/untitled2.dir/Output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Output.cpp" -o CMakeFiles/untitled2.dir/Output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Output.cpp -o CMakeFiles/untitled2.dir/Output.cpp.s
 
 CMakeFiles/untitled2.dir/Refactor.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Refactor.cpp.o: ../Refactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled2.dir/Refactor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Refactor.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Refactor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled2.dir/Refactor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Refactor.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Refactor.cpp
 
 CMakeFiles/untitled2.dir/Refactor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Refactor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Refactor.cpp" > CMakeFiles/untitled2.dir/Refactor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Refactor.cpp > CMakeFiles/untitled2.dir/Refactor.cpp.i
 
 CMakeFiles/untitled2.dir/Refactor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Refactor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Refactor.cpp" -o CMakeFiles/untitled2.dir/Refactor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Refactor.cpp -o CMakeFiles/untitled2.dir/Refactor.cpp.s
 
 CMakeFiles/untitled2.dir/Search.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Search.cpp.o: ../Search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled2.dir/Search.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Search.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Search.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled2.dir/Search.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Search.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Search.cpp
 
 CMakeFiles/untitled2.dir/Search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Search.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Search.cpp" > CMakeFiles/untitled2.dir/Search.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Search.cpp > CMakeFiles/untitled2.dir/Search.cpp.i
 
 CMakeFiles/untitled2.dir/Search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Search.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Search.cpp" -o CMakeFiles/untitled2.dir/Search.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Search.cpp -o CMakeFiles/untitled2.dir/Search.cpp.s
 
 CMakeFiles/untitled2.dir/Addition.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Addition.cpp.o: ../Addition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled2.dir/Addition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Addition.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Addition.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled2.dir/Addition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Addition.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Addition.cpp
 
 CMakeFiles/untitled2.dir/Addition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Addition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Addition.cpp" > CMakeFiles/untitled2.dir/Addition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Addition.cpp > CMakeFiles/untitled2.dir/Addition.cpp.i
 
 CMakeFiles/untitled2.dir/Addition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Addition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Addition.cpp" -o CMakeFiles/untitled2.dir/Addition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Addition.cpp -o CMakeFiles/untitled2.dir/Addition.cpp.s
 
 CMakeFiles/untitled2.dir/Multiplication.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/Multiplication.cpp.o: ../Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled2.dir/Multiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Multiplication.cpp.o -c "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Multiplication.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled2.dir/Multiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/Multiplication.cpp.o -c /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Multiplication.cpp
 
 CMakeFiles/untitled2.dir/Multiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Multiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Multiplication.cpp" > CMakeFiles/untitled2.dir/Multiplication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Multiplication.cpp > CMakeFiles/untitled2.dir/Multiplication.cpp.i
 
 CMakeFiles/untitled2.dir/Multiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Multiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/Multiplication.cpp" -o CMakeFiles/untitled2.dir/Multiplication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Multiplication.cpp -o CMakeFiles/untitled2.dir/Multiplication.cpp.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
@@ -250,7 +250,7 @@ untitled2: CMakeFiles/untitled2.dir/Addition.cpp.o
 untitled2: CMakeFiles/untitled2.dir/Multiplication.cpp.o
 untitled2: CMakeFiles/untitled2.dir/build.make
 untitled2: CMakeFiles/untitled2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable untitled2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable untitled2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -263,6 +263,6 @@ CMakeFiles/untitled2.dir/clean:
 .PHONY : CMakeFiles/untitled2.dir/clean
 
 CMakeFiles/untitled2.dir/depend:
-	cd "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 (копия)/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1 /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled2.dir/depend
 

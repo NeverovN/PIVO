@@ -1,5 +1,8 @@
 /*!
- * \author Sergei Golovachenko
+ * \authors Sergei Golovachenko
+ * \version 0.1
+ * \date 14/09/2020
+ * \todo everything
  */
 
 #include <iostream>
