@@ -14,7 +14,6 @@ Polynomial Polynomial::operator/(const Polynomial divider) {
         if (this->coefArray.size() < divider.coefArray.size())
             throw "Invalid data: dividend is less than divider";
     }
-
     catch (const char *exception) {
         cout << "Division Error: " << exception <<endl;
         abort();
@@ -26,15 +25,12 @@ Polynomial Polynomial::operator/(const Polynomial divider) {
         Polynomial buff;
         result.coefArray[i] = this->coefArray[0] / divider.coefArray[0];
         buff.coefArray.resize(this->coefArray.size());
-        for (int j = 0; j < divider.coefArray.size(); ++j) {
+        for (int j = 0; j < divider.coefArray.size(); ++j) 
             buff.coefArray[j] = result.coefArray[i] * divider.coefArray[j];
-        }
-        for (int j = 0; j < this->coefArray.size(); ++j) {
+        for (int j = 0; j < this->coefArray.size(); ++j)
             this->coefArray[j] -= buff.coefArray[j];
-        }
-        for (int j = 0; j < this->coefArray.size() - 1; ++j) {
+        for (int j = 0; j < this->coefArray.size() - 1; ++j)
             this->coefArray[j] = this->coefArray[j + 1];
-        }
         this->coefArray.pop_back();
     }
 
