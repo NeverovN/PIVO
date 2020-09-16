@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['polynomial_26',['Polynomial',['../index.html',1,'']]]
+  ['polynomial_46',['Polynomial',['../index.html',1,'']]]
 ];

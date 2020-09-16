@@ -1,6 +1,25 @@
 \hypertarget{Division_8cpp}{}\doxysection{/home/cirkul/\+C\+Lion\+Projects/\+L\+A\+B/3\+\_\+sem/\+P\+Pv\+I\+S/\+Lab1/\+Lab1/\+Division.cpp File Reference}
 \label{Division_8cpp}\index{/home/cirkul/CLionProjects/LAB/3\_sem/PPvIS/Lab1/Lab1/Division.cpp@{/home/cirkul/CLionProjects/LAB/3\_sem/PPvIS/Lab1/Lab1/Division.cpp}}
+
+
+Перегруженные операторы / и /=.  
+
+
 {\ttfamily \#include $<$iostream$>$}\newline
 {\ttfamily \#include \char`\"{}Polynomial.\+h\char`\"{}}\newline
 Include dependency graph for Division.\+cpp\+:
 % FIG 0
+
+
+\doxysubsection{Detailed Description}
+Перегруженные операторы / и /=. 
+
+Перегруженные операторы / и /= , позволяющие производить операцию деления многочлена на многочлен.
+
+Деление многочлена младшей степени на многочлен старшей считается ошибкой, встречая которую компилятор завершает выполнение программы и выводит ошибку.
+
+Принцип деления такой же, как и при делении многочленов в столбик. В переменную result помещается результат деления. Переменная buff содержит в себе промежуточные результаты деленияю
+
+Оператор / возвращает объект класса, т.\+к. вызывается не для указателя this, а для делимого.
+
+Оператор /= же изменяет сам объект, для которого был вызван, поэтому у него нет возвращаемого значения. 

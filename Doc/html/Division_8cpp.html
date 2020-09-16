@@ -69,6 +69,9 @@ $(function() {
 <div class="title">Division.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Перегруженные операторы / и /=.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &quot;<a class="el" href="Polynomial_8h_source.html">Polynomial.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -77,6 +80,13 @@ Include dependency graph for Division.cpp:</div>
 <div class="center"><img src="Division_8cpp__incl.png" border="0" usemap="#_2home_2cirkul_2CLionProjects_2LAB_23__sem_2PPvIS_2Lab1_2Lab1_2Division_8cpp" alt=""/></div>
 <!-- MAP 0 -->
 </div>
+</div><a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Перегруженные операторы / и /=. </p>
+<p>Перегруженные операторы / и /= , позволяющие производить операцию деления многочлена на многочлен.</p>
+<p>Деление многочлена младшей степени на многочлен старшей считается ошибкой, встречая которую компилятор завершает выполнение программы и выводит ошибку.</p>
+<p>Принцип деления такой же, как и при делении многочленов в столбик. В переменную result помещается результат деления. Переменная buff содержит в себе промежуточные результаты деленияю</p>
+<p>Оператор / возвращает объект класса, т.к. вызывается не для указателя this, а для делимого.</p>
+<p>Оператор /= же изменяет сам объект, для которого был вызван, поэтому у него нет возвращаемого значения. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

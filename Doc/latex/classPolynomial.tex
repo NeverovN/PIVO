@@ -4,31 +4,24 @@
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}\label{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}} 
-{\bfseries Polynomial} (const int power, const double coef\+Array\mbox{[}$\,$\mbox{]})
+{\bfseries Polynomial} (const int power, const double \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}}\mbox{[}$\,$\mbox{]})
 \item 
-\mbox{\Hypertarget{classPolynomial_abf48f269952a5a3d2cedf24fddb344a5}\label{classPolynomial_abf48f269952a5a3d2cedf24fddb344a5}} 
-double {\bfseries operator()} (const double argument)
+double \mbox{\hyperlink{classPolynomial_abf48f269952a5a3d2cedf24fddb344a5}{operator()}} (const double argument)
 \item 
-\mbox{\Hypertarget{classPolynomial_af1814aef1ded003ebefd02cdc7f39979}\label{classPolynomial_af1814aef1ded003ebefd02cdc7f39979}} 
-void {\bfseries operator-\/=} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} subtrahend)
+void \mbox{\hyperlink{classPolynomial_af1814aef1ded003ebefd02cdc7f39979}{operator-\/=}} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} subtrahend)
 \item 
-\mbox{\Hypertarget{classPolynomial_a1f8d2997a72e6d02a31dc47ab4031a07}\label{classPolynomial_a1f8d2997a72e6d02a31dc47ab4031a07}} 
-\mbox{\hyperlink{classPolynomial}{Polynomial}} {\bfseries operator-\/} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} subtrahend)
+\mbox{\hyperlink{classPolynomial}{Polynomial}} \mbox{\hyperlink{classPolynomial_a1f8d2997a72e6d02a31dc47ab4031a07}{operator-\/}} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} subtrahend)
 \item 
-\mbox{\Hypertarget{classPolynomial_a4607063eafe31580314abeb24d9fb274}\label{classPolynomial_a4607063eafe31580314abeb24d9fb274}} 
-\mbox{\hyperlink{classPolynomial}{Polynomial}} {\bfseries operator/} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} divider)
+\mbox{\hyperlink{classPolynomial}{Polynomial}} \mbox{\hyperlink{classPolynomial_a4607063eafe31580314abeb24d9fb274}{operator/}} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} divider)
 \item 
-\mbox{\Hypertarget{classPolynomial_aeb17ee7167c91955447a3ca4c0b8a01e}\label{classPolynomial_aeb17ee7167c91955447a3ca4c0b8a01e}} 
-void {\bfseries operator/=} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} divider)
+void \mbox{\hyperlink{classPolynomial_aeb17ee7167c91955447a3ca4c0b8a01e}{operator/=}} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} divider)
 \item 
 \mbox{\Hypertarget{classPolynomial_a9a5ba8a0029363d27428881aac7a607b}\label{classPolynomial_a9a5ba8a0029363d27428881aac7a607b}} 
 double {\bfseries operator\mbox{[}$\,$\mbox{]}} (const int received\+Index)
 \item 
-\mbox{\Hypertarget{classPolynomial_ad99770804625070de397916875486335}\label{classPolynomial_ad99770804625070de397916875486335}} 
-\mbox{\hyperlink{classPolynomial}{Polynomial}} {\bfseries operator+} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} addendum)
+\mbox{\hyperlink{classPolynomial}{Polynomial}} \mbox{\hyperlink{classPolynomial_ad99770804625070de397916875486335}{operator+}} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} addendum)
 \item 
-\mbox{\Hypertarget{classPolynomial_a38fc9c34ebf04a77f70cbd236087823f}\label{classPolynomial_a38fc9c34ebf04a77f70cbd236087823f}} 
-void {\bfseries operator+=} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} addendum)
+void \mbox{\hyperlink{classPolynomial_a38fc9c34ebf04a77f70cbd236087823f}{operator+=}} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} addendum)
 \item 
 \mbox{\Hypertarget{classPolynomial_a10667a2363bc4cbc891be53aa01059e8}\label{classPolynomial_a10667a2363bc4cbc891be53aa01059e8}} 
 \mbox{\hyperlink{classPolynomial}{Polynomial}} {\bfseries operator$\ast$} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} multiplier)
@@ -36,12 +29,139 @@ void {\bfseries operator+=} (const \mbox{\hyperlink{classPolynomial}{Polynomial}
 \mbox{\Hypertarget{classPolynomial_ae8f5cf62f18c4300896f1474ea42599e}\label{classPolynomial_ae8f5cf62f18c4300896f1474ea42599e}} 
 void {\bfseries operator$\ast$=} (const \mbox{\hyperlink{classPolynomial}{Polynomial}} multiplier)
 \end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classPolynomial_ad2a7b3cfd13f8e250d5bbb9381a34492}{init}} (\mbox{\hyperlink{classPolynomial}{Polynomial}} value, int power)
+\item 
+\mbox{\hyperlink{classPolynomial}{Polynomial}} \mbox{\hyperlink{classPolynomial_acb9d35f306b4d41d9ce3066cfd0cf895}{refactor}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}\label{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}} 
+vector$<$ double $>$ \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}}
+\begin{DoxyCompactList}\small\item\em Поле класса, содержащее массив коэффициентов многочлена \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Friends}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{classPolynomial_a5e4114786187a8ae664046c5fdaf58ed}\label{classPolynomial_a5e4114786187a8ae664046c5fdaf58ed}} 
 ostream \& {\bfseries operator$<$$<$} (ostream \&out, const \mbox{\hyperlink{classPolynomial}{Polynomial}} \&point)
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPolynomial_ad2a7b3cfd13f8e250d5bbb9381a34492}\label{classPolynomial_ad2a7b3cfd13f8e250d5bbb9381a34492}} 
+\index{Polynomial@{Polynomial}!init@{init}}
+\index{init@{init}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Polynomial\+::init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPolynomial}{Polynomial}}}]{value,  }\item[{int}]{power }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Инициализирует объект класса 
+\begin{DoxyParams}{Parameters}
+{\em value} & Объект класса для копирования \\
+\hline
+{\em power} & Размер массива коэффициентов \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_abf48f269952a5a3d2cedf24fddb344a5}\label{classPolynomial_abf48f269952a5a3d2cedf24fddb344a5}} 
+\index{Polynomial@{Polynomial}!operator()@{operator()}}
+\index{operator()@{operator()}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily double Polynomial\+::operator() (\begin{DoxyParamCaption}\item[{const double}]{argument }\end{DoxyParamCaption})}
+
+Находит значение многочлена при заданном значении аргумента 
+\begin{DoxyParams}{Parameters}
+{\em argument} & Значение аргумента \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Значение многочлена 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPolynomial_ad99770804625070de397916875486335}\label{classPolynomial_ad99770804625070de397916875486335}} 
+\index{Polynomial@{Polynomial}!operator+@{operator+}}
+\index{operator+@{operator+}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPolynomial}{Polynomial}} Polynomial\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPolynomial}{Polynomial}}}]{addendum }\end{DoxyParamCaption})}
+
+Находит сумму двух объектов класса 
+\begin{DoxyParams}{Parameters}
+{\em addendum} & Второе слагаемое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Сумму объекта, для которого вызван метод, и переданного параметра 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPolynomial_a38fc9c34ebf04a77f70cbd236087823f}\label{classPolynomial_a38fc9c34ebf04a77f70cbd236087823f}} 
+\index{Polynomial@{Polynomial}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily void Polynomial\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPolynomial}{Polynomial}}}]{addendum }\end{DoxyParamCaption})}
+
+Находит сумму двух объектов класса 
+\begin{DoxyParams}{Parameters}
+{\em addendum} & Второе слагаемое \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_a1f8d2997a72e6d02a31dc47ab4031a07}\label{classPolynomial_a1f8d2997a72e6d02a31dc47ab4031a07}} 
+\index{Polynomial@{Polynomial}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPolynomial}{Polynomial}} Polynomial\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPolynomial}{Polynomial}}}]{subtrahend }\end{DoxyParamCaption})}
+
+Вычисляет разность двух многочленов 
+\begin{DoxyParams}{Parameters}
+{\em subtrahend} & вычитаемое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Результат вычитания 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPolynomial_af1814aef1ded003ebefd02cdc7f39979}\label{classPolynomial_af1814aef1ded003ebefd02cdc7f39979}} 
+\index{Polynomial@{Polynomial}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator-\/=()}{operator-=()}}
+{\footnotesize\ttfamily void Polynomial\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPolynomial}{Polynomial}}}]{subtrahend }\end{DoxyParamCaption})}
+
+Вычисляет разность двух многочленов 
+\begin{DoxyParams}{Parameters}
+{\em subtrahend} & Вычитаемое \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_a4607063eafe31580314abeb24d9fb274}\label{classPolynomial_a4607063eafe31580314abeb24d9fb274}} 
+\index{Polynomial@{Polynomial}!operator/@{operator/}}
+\index{operator/@{operator/}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPolynomial}{Polynomial}} Polynomial\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPolynomial}{Polynomial}}}]{divider }\end{DoxyParamCaption})}
+
+Находит частное двух многочленов 
+\begin{DoxyParams}{Parameters}
+{\em divider} & Делитель \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Частное объекта, для которого вызван метод, и переданного параметра 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPolynomial_aeb17ee7167c91955447a3ca4c0b8a01e}\label{classPolynomial_aeb17ee7167c91955447a3ca4c0b8a01e}} 
+\index{Polynomial@{Polynomial}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{operator/=()}{operator/=()}}
+{\footnotesize\ttfamily void Polynomial\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPolynomial}{Polynomial}}}]{divider }\end{DoxyParamCaption})}
+
+Находит частное двух многочленов 
+\begin{DoxyParams}{Parameters}
+{\em divider} & Делитель \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_acb9d35f306b4d41d9ce3066cfd0cf895}\label{classPolynomial_acb9d35f306b4d41d9ce3066cfd0cf895}} 
+\index{Polynomial@{Polynomial}!refactor@{refactor}}
+\index{refactor@{refactor}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{refactor()}{refactor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPolynomial}{Polynomial}} Polynomial\+::refactor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Отсекает незначащие нули \begin{DoxyReturn}{Returns}
+Обновленны объект класса 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

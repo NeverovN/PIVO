@@ -4,10 +4,23 @@
 
 /*!
  * \file
+ * \brief Перегруженные методы + и +=
+ *
+ * Перегруженные методы + и +=, которые дают возможность складывать объекты класса друг с другом
+ * В каждом из методов создается объект класса result, который будет хранить в себе ответ,
+ * после чего начинается сложение членов многочлена, имеющих одинаковую степень.
+ *
+ * Оператор + возвращает объект класса, т.к. вызывается не для указателя this, а для одного из слогаемых.
+ *
+ * Оператор += же изменяет сам объект, для которого был вызван, поэтому у него нет возвращаемого значения.
  */
 
 #include "Polynomial.h"
-
+/*!
+ * Находит сумму двух объектов класса
+ * @param addendum Второе слагаемое
+ * @return Сумму объекта, для которого вызван метод, и переданного параметра
+ */
 Polynomial Polynomial::operator + (const Polynomial addendum) {
     Polynomial result;
     this->coefArray.size() > addendum.coefArray.size() ?
@@ -18,7 +31,10 @@ Polynomial Polynomial::operator + (const Polynomial addendum) {
     result.refactor();
     return result;
 }
-
+/*!
+ * Находит сумму двух объектов класса
+ * @param addendum Второе слагаемое
+ */
 void Polynomial::operator += (const Polynomial addendum) {
     this->coefArray.size() > addendum.coefArray.size() ?
     this->init(*this, this->coefArray.size()) :

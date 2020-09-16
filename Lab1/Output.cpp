@@ -4,6 +4,7 @@
 
 /*!
  * \file
+ * \brief
  */
 
 #include "Polynomial.h"
