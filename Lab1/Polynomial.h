@@ -22,9 +22,9 @@
 using namespace std;
 
 class Polynomial {
-    vector<double> coefArray;    ///<Поле класса, содержащее массив коэффициентов многочлена
-    void init(Polynomial value, int power);
-    Polynomial refactor();
+    vector<double> coefArray;    ///< Поле класса, содержащее массив коэффициентов многочлена
+    void init(Polynomial value, int power);     ///< Метод инициализации
+    Polynomial refactor(); ///< Метод переформирования объекта класса
 public:
     Polynomial();
     Polynomial(const int power, const double coefArray[]);
