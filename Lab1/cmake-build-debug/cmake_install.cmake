@@ -1,4 +1,4 @@
-# Install script for directory: /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1
+# Install script for directory: /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
