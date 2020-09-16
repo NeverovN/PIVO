@@ -2,6 +2,10 @@
 // Created by cirkul on 14.09.2020.
 //
 
+/*!
+ * \file
+ */
+
 #include "Polynomial.h"
 
 Polynomial Polynomial::operator * (const Polynomial multiplier) {

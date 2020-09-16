@@ -2,6 +2,10 @@
 // Created by cirkul on 12.09.2020.
 //
 
+/*!
+ * \file
+ */
+
 #include "Polynomial.h"
 #include <iostream>
 

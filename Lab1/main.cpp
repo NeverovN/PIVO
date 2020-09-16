@@ -1,4 +1,6 @@
 /*!
+ * \file
+ * \mainpage Polynomial
  * \authors Sergei Golovachenko
  * \version 0.1
  * \date 14/09/2020

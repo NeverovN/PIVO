@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['polynomial_2eh_3',['Polynomial.h',['../Polynomial_8h.html',1,'']]]
+  ['addition_2ecpp_15',['Addition.cpp',['../Addition_8cpp.html',1,'']]],
+  ['assignment_2ecpp_16',['Assignment.cpp',['../Assignment_8cpp.html',1,'']]]
 ];

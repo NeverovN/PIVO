@@ -1,0 +1,26 @@
+\hypertarget{main_8cpp}{}\doxysection{/home/cirkul/\+C\+Lion\+Projects/\+L\+A\+B/3\+\_\+sem/\+P\+Pv\+I\+S/\+Lab1/\+Lab1/main.cpp File Reference}
+\label{main_8cpp}\index{/home/cirkul/CLionProjects/LAB/3\_sem/PPvIS/Lab1/Lab1/main.cpp@{/home/cirkul/CLionProjects/LAB/3\_sem/PPvIS/Lab1/Lab1/main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Polynomial.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Authors}
+Sergei Golovachenko 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+14/09/2020 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]everything \end{DoxyRefDesc}
