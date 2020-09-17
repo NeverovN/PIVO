@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Assignment.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/Assignment.cpp.o"
   "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Constructors.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/Constructors.cpp.o"
   "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Division.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/Division.cpp.o"
+  "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/GetCoef.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/GetCoef.cpp.o"
+  "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/GetPolynomialSize.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.o"
   "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Init.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/Init.cpp.o"
   "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Multiplication.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/Multiplication.cpp.o"
   "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Output.cpp" "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/cmake-build-debug/CMakeFiles/untitled2.dir/Output.cpp.o"

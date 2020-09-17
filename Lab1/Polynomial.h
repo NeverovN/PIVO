@@ -19,6 +19,7 @@
 
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 class Polynomial {
@@ -27,16 +28,38 @@ class Polynomial {
     Polynomial refactor(); ///< Метод переформирования объекта класса
 public:
     Polynomial();
+
     Polynomial(const int power, const double coefArray[]);
-    double operator () (const double argument);
-    void operator -= (const Polynomial subtrahend);
-    Polynomial operator - (const Polynomial subtrahend);
-    Polynomial operator / (const Polynomial divider);
-    void operator /= (const Polynomial divider);
-    friend ostream& operator << (ostream &out, const Polynomial &point);
-    double operator [] (const int receivedIndex);
-    Polynomial operator + (const Polynomial addendum);
-    void operator += (const Polynomial addendum);
-    Polynomial operator * (const Polynomial multiplier);
-    void operator *= (const Polynomial multiplier);
+
+    Polynomial(const int power, const int coefArray[]);
+
+    Polynomial(const int power, const vector<double> coefArray);
+
+    Polynomial(const int power, const vector<int> coefArray);
+
+    double getCoef(int index);
+
+    int getPolynomialSize();
+
+    double operator()(const double argument);
+
+    void operator-=(const Polynomial subtrahend);
+
+    Polynomial operator-(const Polynomial subtrahend);
+
+    Polynomial operator/(const Polynomial divider);
+
+    void operator/=(const Polynomial divider);
+
+    friend ostream &operator<<(ostream &out, const Polynomial &point);
+
+    double operator[](const int receivedIndex);
+
+    Polynomial operator+(const Polynomial addendum);
+
+    void operator+=(const Polynomial addendum);
+
+    Polynomial operator*(const Polynomial multiplier);
+
+    void operator*=(const Polynomial multiplier);
 };

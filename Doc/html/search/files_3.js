@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['init_2ecpp_29',['Init.cpp',['../Init_8cpp.html',1,'']]]
+  ['getcoef_2ecpp_350',['GetCoef.cpp',['../GetCoef_8cpp.html',1,'']]],
+  ['getpolynomialsize_2ecpp_351',['GetPolynomialSize.cpp',['../GetPolynomialSize_8cpp.html',1,'']]]
 ];

@@ -251,6 +251,60 @@ Division.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Division.cpp.s
 .PHONY : Division.cpp.s
 
+GetCoef.o: GetCoef.cpp.o
+
+.PHONY : GetCoef.o
+
+# target to build an object file
+GetCoef.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetCoef.cpp.o
+.PHONY : GetCoef.cpp.o
+
+GetCoef.i: GetCoef.cpp.i
+
+.PHONY : GetCoef.i
+
+# target to preprocess a source file
+GetCoef.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetCoef.cpp.i
+.PHONY : GetCoef.cpp.i
+
+GetCoef.s: GetCoef.cpp.s
+
+.PHONY : GetCoef.s
+
+# target to generate assembly for a file
+GetCoef.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetCoef.cpp.s
+.PHONY : GetCoef.cpp.s
+
+GetPolynomialSize.o: GetPolynomialSize.cpp.o
+
+.PHONY : GetPolynomialSize.o
+
+# target to build an object file
+GetPolynomialSize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.o
+.PHONY : GetPolynomialSize.cpp.o
+
+GetPolynomialSize.i: GetPolynomialSize.cpp.i
+
+.PHONY : GetPolynomialSize.i
+
+# target to preprocess a source file
+GetPolynomialSize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.i
+.PHONY : GetPolynomialSize.cpp.i
+
+GetPolynomialSize.s: GetPolynomialSize.cpp.s
+
+.PHONY : GetPolynomialSize.s
+
+# target to generate assembly for a file
+GetPolynomialSize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.s
+.PHONY : GetPolynomialSize.cpp.s
+
 Init.o: Init.cpp.o
 
 .PHONY : Init.o
@@ -461,6 +515,12 @@ help:
 	@echo "... Division.o"
 	@echo "... Division.i"
 	@echo "... Division.s"
+	@echo "... GetCoef.o"
+	@echo "... GetCoef.i"
+	@echo "... GetCoef.s"
+	@echo "... GetPolynomialSize.o"
+	@echo "... GetPolynomialSize.i"
+	@echo "... GetPolynomialSize.s"
 	@echo "... Init.o"
 	@echo "... Init.i"
 	@echo "... Init.s"

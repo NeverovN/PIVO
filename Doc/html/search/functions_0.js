@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['init_36',['init',['../classPolynomial.html#ad2a7b3cfd13f8e250d5bbb9381a34492',1,'Polynomial']]]
+  ['getcoef_359',['getCoef',['../classPolynomial.html#a93f208a1eeba75bd60f2b35faaeb969c',1,'Polynomial']]],
+  ['getpolynomialsize_360',['getPolynomialSize',['../classPolynomial.html#a913a5ee5554ab534cc4949359640d936',1,'Polynomial']]]
 ];
