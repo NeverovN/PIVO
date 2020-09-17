@@ -9,7 +9,7 @@ digraph "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h"
   Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
   Node3 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Assignment.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Assignment_8cpp.html",tooltip="Перегруженый оператор ()"];
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
-  Node4 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Constructors.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Constructors_8cpp.html",tooltip=" "];
+  Node4 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Constructors.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Constructors_8cpp.html",tooltip="Конструкторы для инициализации объектов класса сразу при создании"];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
   Node5 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Division.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Division_8cpp.html",tooltip="Перегруженные операторы / и /=."];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
@@ -21,7 +21,7 @@ digraph "/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h"
   Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
   Node9 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Multiplication.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Multiplication_8cpp.html",tooltip="Перегруженные методы * и *=."];
   Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
-  Node10 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Output.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Output_8cpp.html",tooltip=" "];
+  Node10 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Output.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Output_8cpp.html",tooltip="перегруженный оператор вывода"];
   Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
   Node11 [label="/home/cirkul/CLionProjects\l/LAB/3_sem/PPvIS/Lab1/Lab1\l/Refactor.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Refactor_8cpp.html",tooltip="Приватный метод преобразования объекта класса"];
   Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];

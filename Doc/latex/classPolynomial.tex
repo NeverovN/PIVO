@@ -3,17 +3,15 @@
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}\label{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}} 
-{\bfseries Polynomial} (const int power, const double \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}}\mbox{[}$\,$\mbox{]})
+\mbox{\hyperlink{classPolynomial_a961dec5c0727f03e5273f74a345dfbb6}{Polynomial}} ()
 \item 
-\mbox{\Hypertarget{classPolynomial_a64b4b34bf1f6e03ba8bf13b53ffc58d0}\label{classPolynomial_a64b4b34bf1f6e03ba8bf13b53ffc58d0}} 
-{\bfseries Polynomial} (const int power, const int \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}}\mbox{[}$\,$\mbox{]})
+\mbox{\hyperlink{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}{Polynomial}} (const int power, const double \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}}\mbox{[}$\,$\mbox{]})
 \item 
-\mbox{\Hypertarget{classPolynomial_aad52f2b3925c310880db9b22ff1ddcb9}\label{classPolynomial_aad52f2b3925c310880db9b22ff1ddcb9}} 
-{\bfseries Polynomial} (const int power, const vector$<$ double $>$ \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}})
+\mbox{\hyperlink{classPolynomial_a64b4b34bf1f6e03ba8bf13b53ffc58d0}{Polynomial}} (const int power, const int \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}}\mbox{[}$\,$\mbox{]})
 \item 
-\mbox{\Hypertarget{classPolynomial_ad8f61786c22060358ab80b3f5083f057}\label{classPolynomial_ad8f61786c22060358ab80b3f5083f057}} 
-{\bfseries Polynomial} (const int power, const vector$<$ int $>$ \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}})
+\mbox{\hyperlink{classPolynomial_aad52f2b3925c310880db9b22ff1ddcb9}{Polynomial}} (const int power, const vector$<$ double $>$ \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}})
+\item 
+\mbox{\hyperlink{classPolynomial_ad8f61786c22060358ab80b3f5083f057}{Polynomial}} (const int power, const vector$<$ int $>$ \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22f448b88}{coef\+Array}})
 \item 
 double \mbox{\hyperlink{classPolynomial_a93f208a1eeba75bd60f2b35faaeb969c}{get\+Coef}} (int index)
 \item 
@@ -58,6 +56,67 @@ vector$<$ double $>$ \mbox{\hyperlink{classPolynomial_a5a511d89b7b81651ec7e10f22
 \mbox{\Hypertarget{classPolynomial_a5e4114786187a8ae664046c5fdaf58ed}\label{classPolynomial_a5e4114786187a8ae664046c5fdaf58ed}} 
 ostream \& {\bfseries operator$<$$<$} (ostream \&out, const \mbox{\hyperlink{classPolynomial}{Polynomial}} \&point)
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPolynomial_a961dec5c0727f03e5273f74a345dfbb6}\label{classPolynomial_a961dec5c0727f03e5273f74a345dfbb6}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+Конструктор по умолчанию. Вызывается при встрече строки кода вида \mbox{\hyperlink{classPolynomial}{Polynomial}} object; При этом поля объекта object остаются пустыми, т.\+к. на инициализацию не поступило никаких данных. \mbox{\Hypertarget{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}\label{classPolynomial_ae1aacceb0bd4e50cf16237bacafd4f8e}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}\item[{const int}]{power,  }\item[{const double}]{coef\+Array\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Конструктор, заполняющий массив коэффициентов объекта класса из переданного массива значений типа double 
+\begin{DoxyParams}{Parameters}
+{\em power} & Старшая степень многочлена \\
+\hline
+{\em coef\+Array} & Массив значений \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_a64b4b34bf1f6e03ba8bf13b53ffc58d0}\label{classPolynomial_a64b4b34bf1f6e03ba8bf13b53ffc58d0}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}\item[{const int}]{power,  }\item[{const int}]{coef\+Array\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Конструктор, заполняющий массив коэффициентов объекта класса из переданного массива значений типа int 
+\begin{DoxyParams}{Parameters}
+{\em power} & Старшая степень многочлена \\
+\hline
+{\em coef\+Array} & Массив значений \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_aad52f2b3925c310880db9b22ff1ddcb9}\label{classPolynomial_aad52f2b3925c310880db9b22ff1ddcb9}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}\item[{const int}]{power,  }\item[{const vector$<$ double $>$}]{coef\+Array }\end{DoxyParamCaption})}
+
+Конструктор, заполняющий массив коэффициентов объекта класса из переданного вектора типа double 
+\begin{DoxyParams}{Parameters}
+{\em power} & Старшая степень многочлена \\
+\hline
+{\em coef\+Array} & Массив значений \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPolynomial_ad8f61786c22060358ab80b3f5083f057}\label{classPolynomial_ad8f61786c22060358ab80b3f5083f057}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\doxysubsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}\item[{const int}]{power,  }\item[{const vector$<$ int $>$}]{coef\+Array }\end{DoxyParamCaption})}
+
+Конструктор, заполняющий массив коэффициентов объекта класса из переданного вектора типа int 
+\begin{DoxyParams}{Parameters}
+{\em power} & Старшая степень многочлена \\
+\hline
+{\em coef\+Array} & Массив значений \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsection{Member Function Documentation}
