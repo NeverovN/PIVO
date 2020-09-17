@@ -1,7 +1,7 @@
 /*!
  * \file
  * \mainpage Polynomial
- * \authors Sergei Golovachenko
+ * \authors Torop Nikita & Sergei Golovachenko
  * \version 0.1
  * \date 14/09/2020
  * \todo everything
