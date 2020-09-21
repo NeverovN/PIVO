@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/GetCoef.cpp
-Polynomial.h
-/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
-vector
--
-
-/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/GetPolynomialSize.cpp
-Polynomial.h
-/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
-
 /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
 iostream
 -

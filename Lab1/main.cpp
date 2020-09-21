@@ -12,11 +12,11 @@
 #include "Polynomial.h"
 
 TEST_CASE() {
-    SECTION("1") {
+    SECTION("polynomial size") {
         vector<int> aCoefArray{1, 2, 3};
         Polynomial a(aCoefArray.size() - 1, aCoefArray);
         REQUIRE(aCoefArray.size() == a.getPolynomialSize());
-    }SECTION("2") {
+    }SECTION("vector<int> correct coefs") {
         vector<int> aCoefArray = {1, 2, 3};
         Polynomial a(2, aCoefArray);
         bool flag = true;
@@ -24,7 +24,7 @@ TEST_CASE() {
             if (a.getCoef(i) != aCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("3") {
+    }SECTION("vector<double> correct coefs") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
         bool flag = true;
@@ -32,7 +32,7 @@ TEST_CASE() {
             if (a.getCoef(i) != aCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("4") {
+    }SECTION("int arr correct coefs") {
         int aCoefArray[] = {1, 2, 3};
         Polynomial a(2, aCoefArray);
         bool flag = true;
@@ -40,7 +40,7 @@ TEST_CASE() {
             if (a.getCoef(i) != aCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("5") {
+    }SECTION("double arr correct coefs") {
         double aCoefArray[] = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
         bool flag = true;
@@ -48,7 +48,7 @@ TEST_CASE() {
             if (a.getCoef(i) != aCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("6") {
+    }SECTION("correct copy constructor") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
         Polynomial aCopy(a);
@@ -57,14 +57,14 @@ TEST_CASE() {
             if (aCopy.getCoef(i) != aCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("7") {
+    }SECTION("equal subtraction + var declaration") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
         Polynomial b(2, bCoefArray);
         Polynomial c = a - b;
         REQUIRE(c.getPolynomialSize() == 0);
-    }SECTION("8") {
+    }SECTION("equal substruction") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
@@ -72,7 +72,7 @@ TEST_CASE() {
         Polynomial c;
         c = a - b;
         REQUIRE(c.getPolynomialSize() == 0);
-    }SECTION("9") {
+    }SECTION("equal subtraction by -=") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
@@ -80,7 +80,7 @@ TEST_CASE() {
         Polynomial c = a;
         c -= b;
         REQUIRE(c.getPolynomialSize() == 0);
-    }SECTION("10") {
+    }SECTION("subtract the smaller from the larger") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2, 3.14};
         Polynomial a(2, aCoefArray);
@@ -92,7 +92,19 @@ TEST_CASE() {
         if (c.getCoef(0) != aCoefArray[1] - bCoefArray[1] || c.getCoef(1) != 0)
             flag = false;
         REQUIRE(flag);
-    }SECTION("11") {
+    }SECTION("subtract the larger from the smaller") {
+        vector<double> aCoefArray = {1.3, 2.009, 3.14};
+        vector<double> bCoefArray = {1.3, 2, 3.14};
+        Polynomial a(2, aCoefArray);
+        Polynomial b(2, bCoefArray);
+        Polynomial c = b - a;
+        bool flag = true;
+        if (c.getPolynomialSize() != 2)
+            flag = false;
+        if (c.getCoef(0) != bCoefArray[1] - aCoefArray[1] || c.getCoef(1) != 0)
+            flag = false;
+        REQUIRE(flag);
+    }SECTION("adding equals") {
         vector<double> aCoefArray = {1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(2, aCoefArray);
@@ -106,7 +118,7 @@ TEST_CASE() {
                 flag = false;
         }
         REQUIRE(flag);
-    }SECTION("12") {
+    }SECTION("adding different degrees") {
         vector<double> aCoefArray = {-4, 1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(3, aCoefArray);
@@ -121,7 +133,7 @@ TEST_CASE() {
             if (c.getCoef(i + 1) != aCoefArray[i + 1] + bCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("13") {
+    }SECTION("inverted adding different degrees") {
         vector<double> aCoefArray = {-4, 1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(3, aCoefArray);
@@ -136,7 +148,7 @@ TEST_CASE() {
             if (c.getCoef(i + 1) != aCoefArray[i + 1] + bCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("14") {
+    }SECTION("adding different degrees with +=") {
         vector<double> aCoefArray = {-4, 1.3, 2.009, 3.14};
         vector<double> bCoefArray = {1.3, 2.009, 3.14};
         Polynomial a(3, aCoefArray);
@@ -152,7 +164,7 @@ TEST_CASE() {
             if (c.getCoef(i + 1) != aCoefArray[i + 1] + bCoefArray[i])
                 flag = false;
         REQUIRE(flag);
-    }SECTION("15") {
+    }SECTION("multiplication + var declaration") {
         vector<double> aCoefArray = {-1, 3};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
@@ -168,7 +180,7 @@ TEST_CASE() {
         if (c.getCoef(2) != 12)
             flag = false;
         REQUIRE(flag);
-    }SECTION("16") {
+    }SECTION("inverted multiplication + var declaration") {
         vector<double> aCoefArray = {-1, 3};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
@@ -184,7 +196,7 @@ TEST_CASE() {
         if (c.getCoef(2) != 12)
             flag = false;
         REQUIRE(flag);
-    }SECTION("17") {
+    }SECTION("multiplication with zero member") {
         vector<double> aCoefArray = {1, 0};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
@@ -200,7 +212,7 @@ TEST_CASE() {
         if (c.getCoef(2) != 0)
             flag = false;
         REQUIRE(flag);
-    }SECTION("18") {
+    }SECTION("multiplication with *=") {
         vector<double> aCoefArray = {1, 0};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
@@ -217,7 +229,7 @@ TEST_CASE() {
         if (c.getCoef(2) != 0)
             flag = false;
         REQUIRE(flag);
-    }SECTION("19") {
+    }SECTION("division + var declaration") {
         vector<double> aCoefArray = {1, 0};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
@@ -229,7 +241,7 @@ TEST_CASE() {
         if (c.getCoef(0) != 0.5)
             flag = false;
         REQUIRE(flag);
-    }SECTION("20") {
+    }SECTION("dividing with /= and copy constructor") {
         vector<double> aCoefArray = {12, 10, -3};
         vector<double> bCoefArray = {3, 1};
         Polynomial a(2, aCoefArray);
@@ -244,7 +256,7 @@ TEST_CASE() {
         if (c.getCoef(1) != 2)
             flag = false;
         REQUIRE(flag);
-    }SECTION("21") {
+    }SECTION("dividing more by less + var declaration") {
         vector<double> aCoefArray = {12, 10, -3};
         vector<double> bCoefArray = {3, 1};
         Polynomial a(2, aCoefArray);
@@ -258,7 +270,7 @@ TEST_CASE() {
         if (c.getCoef(1) != 2)
             flag = false;
         REQUIRE(flag);
-    }SECTION("22") {
+    }SECTION("dividing equals with /= and copy constructor") {
         vector<double> aCoefArray = {12, 10, -3};
         vector<double> bCoefArray = {12, 10, -3};
         Polynomial a(2, aCoefArray);
@@ -271,15 +283,15 @@ TEST_CASE() {
         if (c.getCoef(0) != 1)
             flag = false;
         REQUIRE(flag);
-    }SECTION("23") {
+    }SECTION("calculating the value of a polynomial at a point 1") {
         vector<double> aCoefArray = {12, 10, -3};
         Polynomial a(2, aCoefArray);
         REQUIRE(a(1) == 19);
-    }SECTION("24") {
+    }SECTION("calculating the value of a polynomial at a point 0") {
         vector<double> aCoefArray = {12, 10, -3};
         Polynomial a(2, aCoefArray);
         REQUIRE(a(0) == -3);
-    }SECTION("25") {
+    }SECTION("coefficient of a polynomial by degree 1") {
         vector<double> aCoefArray = {12, 10, -3};
         Polynomial a(2, aCoefArray);
         REQUIRE(a[1] == 10);
@@ -287,15 +299,15 @@ TEST_CASE() {
         vector<double> aCoefArray = {12, 10, -3};
         Polynomial a(2, aCoefArray);
         REQUIRE(a[0] == -3);
-    }SECTION("27") {
+    }SECTION("coefficient of a polynomial by index 2") {
         vector<double> aCoefArray = {1, 2, 3};
         Polynomial a(2, aCoefArray);
         REQUIRE(a.getCoef(2) == 3);
-    }SECTION("28") {
+    }SECTION("size of polynomial") {
         vector<double> aCoefArray = {1, 2, 3};
         Polynomial a(2, aCoefArray);
         REQUIRE(a.getPolynomialSize() == 3);
-    }SECTION("29") {
+    }SECTION("multiplication + copy constructor") {
         vector<double> aCoefArray = {1, 0};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
@@ -303,12 +315,12 @@ TEST_CASE() {
         Polynomial c(a);
         c *= b;
         REQUIRE(c.getPolynomialSize() == 3);
-    }SECTION("30") {
-        vector<double> aCoefArray = {1, 0};
+    }SECTION("division error") {
+        vector<double> aCoefArray = {0, 0};
         vector<double> bCoefArray = {2, 4};
         Polynomial a(1, aCoefArray);
         Polynomial b(1, bCoefArray);
-        Polynomial c = a * b;
-        REQUIRE(c.getCoef(1) == 4);
+        Polynomial c = a / b;
+        REQUIRE(1);
     }
 }
