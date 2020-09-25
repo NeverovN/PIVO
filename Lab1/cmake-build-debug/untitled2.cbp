@@ -82,43 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Addition.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Assignment.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Constructors.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Division.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/GetCoef.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/GetPolynomialSize.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Init.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Multiplication.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Output.cpp">
+		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.cpp">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h">
 			<Option target="untitled2"/>
 		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Refactor.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Search.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Substruction.cpp">
+		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/TESTS.cpp">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/main.cpp">

@@ -143,329 +143,59 @@ untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-Addition.o: Addition.cpp.o
+Polynomial.o: Polynomial.cpp.o
 
-.PHONY : Addition.o
-
-# target to build an object file
-Addition.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Addition.cpp.o
-.PHONY : Addition.cpp.o
-
-Addition.i: Addition.cpp.i
-
-.PHONY : Addition.i
-
-# target to preprocess a source file
-Addition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Addition.cpp.i
-.PHONY : Addition.cpp.i
-
-Addition.s: Addition.cpp.s
-
-.PHONY : Addition.s
-
-# target to generate assembly for a file
-Addition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Addition.cpp.s
-.PHONY : Addition.cpp.s
-
-Assignment.o: Assignment.cpp.o
-
-.PHONY : Assignment.o
+.PHONY : Polynomial.o
 
 # target to build an object file
-Assignment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Assignment.cpp.o
-.PHONY : Assignment.cpp.o
+Polynomial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Polynomial.cpp.o
+.PHONY : Polynomial.cpp.o
 
-Assignment.i: Assignment.cpp.i
+Polynomial.i: Polynomial.cpp.i
 
-.PHONY : Assignment.i
+.PHONY : Polynomial.i
 
 # target to preprocess a source file
-Assignment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Assignment.cpp.i
-.PHONY : Assignment.cpp.i
+Polynomial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Polynomial.cpp.i
+.PHONY : Polynomial.cpp.i
 
-Assignment.s: Assignment.cpp.s
+Polynomial.s: Polynomial.cpp.s
 
-.PHONY : Assignment.s
+.PHONY : Polynomial.s
 
 # target to generate assembly for a file
-Assignment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Assignment.cpp.s
-.PHONY : Assignment.cpp.s
+Polynomial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Polynomial.cpp.s
+.PHONY : Polynomial.cpp.s
 
-Constructors.o: Constructors.cpp.o
+TESTS.o: TESTS.cpp.o
 
-.PHONY : Constructors.o
+.PHONY : TESTS.o
 
 # target to build an object file
-Constructors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Constructors.cpp.o
-.PHONY : Constructors.cpp.o
+TESTS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/TESTS.cpp.o
+.PHONY : TESTS.cpp.o
 
-Constructors.i: Constructors.cpp.i
+TESTS.i: TESTS.cpp.i
 
-.PHONY : Constructors.i
-
-# target to preprocess a source file
-Constructors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Constructors.cpp.i
-.PHONY : Constructors.cpp.i
-
-Constructors.s: Constructors.cpp.s
-
-.PHONY : Constructors.s
-
-# target to generate assembly for a file
-Constructors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Constructors.cpp.s
-.PHONY : Constructors.cpp.s
-
-Division.o: Division.cpp.o
-
-.PHONY : Division.o
-
-# target to build an object file
-Division.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Division.cpp.o
-.PHONY : Division.cpp.o
-
-Division.i: Division.cpp.i
-
-.PHONY : Division.i
+.PHONY : TESTS.i
 
 # target to preprocess a source file
-Division.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Division.cpp.i
-.PHONY : Division.cpp.i
+TESTS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/TESTS.cpp.i
+.PHONY : TESTS.cpp.i
 
-Division.s: Division.cpp.s
+TESTS.s: TESTS.cpp.s
 
-.PHONY : Division.s
-
-# target to generate assembly for a file
-Division.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Division.cpp.s
-.PHONY : Division.cpp.s
-
-GetCoef.o: GetCoef.cpp.o
-
-.PHONY : GetCoef.o
-
-# target to build an object file
-GetCoef.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetCoef.cpp.o
-.PHONY : GetCoef.cpp.o
-
-GetCoef.i: GetCoef.cpp.i
-
-.PHONY : GetCoef.i
-
-# target to preprocess a source file
-GetCoef.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetCoef.cpp.i
-.PHONY : GetCoef.cpp.i
-
-GetCoef.s: GetCoef.cpp.s
-
-.PHONY : GetCoef.s
+.PHONY : TESTS.s
 
 # target to generate assembly for a file
-GetCoef.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetCoef.cpp.s
-.PHONY : GetCoef.cpp.s
-
-GetPolynomialSize.o: GetPolynomialSize.cpp.o
-
-.PHONY : GetPolynomialSize.o
-
-# target to build an object file
-GetPolynomialSize.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.o
-.PHONY : GetPolynomialSize.cpp.o
-
-GetPolynomialSize.i: GetPolynomialSize.cpp.i
-
-.PHONY : GetPolynomialSize.i
-
-# target to preprocess a source file
-GetPolynomialSize.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.i
-.PHONY : GetPolynomialSize.cpp.i
-
-GetPolynomialSize.s: GetPolynomialSize.cpp.s
-
-.PHONY : GetPolynomialSize.s
-
-# target to generate assembly for a file
-GetPolynomialSize.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/GetPolynomialSize.cpp.s
-.PHONY : GetPolynomialSize.cpp.s
-
-Init.o: Init.cpp.o
-
-.PHONY : Init.o
-
-# target to build an object file
-Init.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Init.cpp.o
-.PHONY : Init.cpp.o
-
-Init.i: Init.cpp.i
-
-.PHONY : Init.i
-
-# target to preprocess a source file
-Init.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Init.cpp.i
-.PHONY : Init.cpp.i
-
-Init.s: Init.cpp.s
-
-.PHONY : Init.s
-
-# target to generate assembly for a file
-Init.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Init.cpp.s
-.PHONY : Init.cpp.s
-
-Multiplication.o: Multiplication.cpp.o
-
-.PHONY : Multiplication.o
-
-# target to build an object file
-Multiplication.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Multiplication.cpp.o
-.PHONY : Multiplication.cpp.o
-
-Multiplication.i: Multiplication.cpp.i
-
-.PHONY : Multiplication.i
-
-# target to preprocess a source file
-Multiplication.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Multiplication.cpp.i
-.PHONY : Multiplication.cpp.i
-
-Multiplication.s: Multiplication.cpp.s
-
-.PHONY : Multiplication.s
-
-# target to generate assembly for a file
-Multiplication.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Multiplication.cpp.s
-.PHONY : Multiplication.cpp.s
-
-Output.o: Output.cpp.o
-
-.PHONY : Output.o
-
-# target to build an object file
-Output.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Output.cpp.o
-.PHONY : Output.cpp.o
-
-Output.i: Output.cpp.i
-
-.PHONY : Output.i
-
-# target to preprocess a source file
-Output.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Output.cpp.i
-.PHONY : Output.cpp.i
-
-Output.s: Output.cpp.s
-
-.PHONY : Output.s
-
-# target to generate assembly for a file
-Output.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Output.cpp.s
-.PHONY : Output.cpp.s
-
-Refactor.o: Refactor.cpp.o
-
-.PHONY : Refactor.o
-
-# target to build an object file
-Refactor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.o
-.PHONY : Refactor.cpp.o
-
-Refactor.i: Refactor.cpp.i
-
-.PHONY : Refactor.i
-
-# target to preprocess a source file
-Refactor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.i
-.PHONY : Refactor.cpp.i
-
-Refactor.s: Refactor.cpp.s
-
-.PHONY : Refactor.s
-
-# target to generate assembly for a file
-Refactor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Refactor.cpp.s
-.PHONY : Refactor.cpp.s
-
-Search.o: Search.cpp.o
-
-.PHONY : Search.o
-
-# target to build an object file
-Search.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Search.cpp.o
-.PHONY : Search.cpp.o
-
-Search.i: Search.cpp.i
-
-.PHONY : Search.i
-
-# target to preprocess a source file
-Search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Search.cpp.i
-.PHONY : Search.cpp.i
-
-Search.s: Search.cpp.s
-
-.PHONY : Search.s
-
-# target to generate assembly for a file
-Search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Search.cpp.s
-.PHONY : Search.cpp.s
-
-Substruction.o: Substruction.cpp.o
-
-.PHONY : Substruction.o
-
-# target to build an object file
-Substruction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Substruction.cpp.o
-.PHONY : Substruction.cpp.o
-
-Substruction.i: Substruction.cpp.i
-
-.PHONY : Substruction.i
-
-# target to preprocess a source file
-Substruction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Substruction.cpp.i
-.PHONY : Substruction.cpp.i
-
-Substruction.s: Substruction.cpp.s
-
-.PHONY : Substruction.s
-
-# target to generate assembly for a file
-Substruction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Substruction.cpp.s
-.PHONY : Substruction.cpp.s
+TESTS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/TESTS.cpp.s
+.PHONY : TESTS.cpp.s
 
 main.o: main.cpp.o
 
@@ -503,42 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled2"
-	@echo "... Addition.o"
-	@echo "... Addition.i"
-	@echo "... Addition.s"
-	@echo "... Assignment.o"
-	@echo "... Assignment.i"
-	@echo "... Assignment.s"
-	@echo "... Constructors.o"
-	@echo "... Constructors.i"
-	@echo "... Constructors.s"
-	@echo "... Division.o"
-	@echo "... Division.i"
-	@echo "... Division.s"
-	@echo "... GetCoef.o"
-	@echo "... GetCoef.i"
-	@echo "... GetCoef.s"
-	@echo "... GetPolynomialSize.o"
-	@echo "... GetPolynomialSize.i"
-	@echo "... GetPolynomialSize.s"
-	@echo "... Init.o"
-	@echo "... Init.i"
-	@echo "... Init.s"
-	@echo "... Multiplication.o"
-	@echo "... Multiplication.i"
-	@echo "... Multiplication.s"
-	@echo "... Output.o"
-	@echo "... Output.i"
-	@echo "... Output.s"
-	@echo "... Refactor.o"
-	@echo "... Refactor.i"
-	@echo "... Refactor.s"
-	@echo "... Search.o"
-	@echo "... Search.i"
-	@echo "... Search.s"
-	@echo "... Substruction.o"
-	@echo "... Substruction.i"
-	@echo "... Substruction.s"
+	@echo "... Polynomial.o"
+	@echo "... Polynomial.i"
+	@echo "... Polynomial.s"
+	@echo "... TESTS.o"
+	@echo "... TESTS.i"
+	@echo "... TESTS.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

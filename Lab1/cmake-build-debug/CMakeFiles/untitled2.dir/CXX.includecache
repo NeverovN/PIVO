@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.cpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
+cmath
+-
+iostream
+-
+
 /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
 iostream
 -
+vector
+-
+
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/TESTS.cpp
+catch.hpp
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/catch.hpp
+Polynomial.h
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
 vector
 -
 
@@ -593,8 +609,6 @@ cassert
 -
 
 /home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/main.cpp
-catch.hpp
-/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/catch.hpp
-Polynomial.h
-/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/Polynomial.h
+TESTS.cpp
+/home/cirkul/CLionProjects/LAB/3_sem/PPvIS/Lab1/Lab1/TESTS.cpp
 

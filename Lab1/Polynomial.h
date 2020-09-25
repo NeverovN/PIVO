@@ -26,6 +26,7 @@ class Polynomial {
     vector<double> coefArray;    ///< Поле класса, содержащее массив коэффициентов многочлена
     void init(Polynomial value, int power);     ///< Метод инициализации
     Polynomial refactor(); ///< Метод переформирования объекта класса
+    void division(Polynomial dividende, Polynomial divider);
 public:
     Polynomial();
 
