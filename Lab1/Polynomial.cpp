@@ -5,6 +5,7 @@
 #include "Polynomial.h"
 #include <cmath>
 #include <iostream>
+
 using namespace std;
 /*!
  * \file
@@ -180,14 +181,9 @@ Polynomial Polynomial::operator/(const Polynomial divider) {
 void Polynomial::operator/=(const Polynomial divider) {
     Polynomial result;
 
-    try {
-        if (this->coefArray.size() < divider.coefArray.size())
-            throw "Invalid data: dividend is less than divider";
-    }
-    catch (const char *exception) {
-        cout << "Division Error: " << exception << endl;
-        abort();
-    }
+    if (this->coefArray.size() < divider.coefArray.size())
+        throw "Invalid data: dividend is less than divider";
+
 
     result.coefArray.resize(this->coefArray.size() - divider.coefArray.size() + 1);
 
@@ -268,7 +264,7 @@ void Polynomial::init(Polynomial value, int power) {
  * @param multiplier Второй множитель
  * @return Произведение объекта, для которого вызван метод, и переданного параметра
  */
-Polynomial Polynomial::operator * (const Polynomial multiplier) {
+Polynomial Polynomial::operator*(const Polynomial multiplier) {
     Polynomial result;
     result.coefArray.resize(this->coefArray.size() + multiplier.coefArray.size() - 1);
     for (int i = 0; i < this->coefArray.size(); i++) {
@@ -278,11 +274,12 @@ Polynomial Polynomial::operator * (const Polynomial multiplier) {
     }
     return result;
 }
+
 /*!
  * Находит произведение двух объектов класса
  * @param multiplier Второй множитель
  */
-void Polynomial::operator *= (const Polynomial multiplier) {
+void Polynomial::operator*=(const Polynomial multiplier) {
     Polynomial result;
     result.coefArray.resize(this->coefArray.size() + multiplier.coefArray.size() - 1);
     for (int i = 0; i < this->coefArray.size(); i++) {
@@ -337,9 +334,9 @@ ostream &operator<<(ostream &out, const Polynomial &output) {
  */
 Polynomial Polynomial::refactor() {
     int count = 0;
-    while (this->coefArray[0] == 0){
+    while (this->coefArray[0] == 0) {
         for (int i = 0; i < this->coefArray.size(); ++i)
-            this->coefArray[i] = this->coefArray[i+1];
+            this->coefArray[i] = this->coefArray[i + 1];
         count++;
     }
     for (int i = 0; i < count; ++i)
@@ -382,7 +379,7 @@ double Polynomial::operator[](const int requiredIndex) {
  * @param subtrahend вычитаемое
  * @return Результат вычитания
  */
-Polynomial Polynomial::operator - (const Polynomial subtrahend){
+Polynomial Polynomial::operator-(const Polynomial subtrahend) {
     Polynomial result;
     this->coefArray.size() > subtrahend.coefArray.size() ?
     result.init(*this, this->coefArray.size()) :
@@ -392,11 +389,12 @@ Polynomial Polynomial::operator - (const Polynomial subtrahend){
     result.refactor();
     return result;
 }
+
 /*!
  * Вычисляет разность двух многочленов
  * @param subtrahend Вычитаемое
  */
-void Polynomial::operator -= (const Polynomial subtrahend){
+void Polynomial::operator-=(const Polynomial subtrahend) {
     this->coefArray.size() > subtrahend.coefArray.size() ?
     this->init(*this, this->coefArray.size()) :
     this->init(*this, subtrahend.coefArray.size());
